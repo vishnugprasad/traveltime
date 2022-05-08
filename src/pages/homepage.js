@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from '../components/common/Header'
+import HeroSection from '../components/HeroSection'
 
 const HomePage = () => {
   return (
-    <div>This is my Home</div>
+    <>
+    <Header></Header>
+      <HeroSection></HeroSection>
+    </>
   )
 }
 
