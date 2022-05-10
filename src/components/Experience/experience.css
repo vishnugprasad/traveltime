@@ -1,0 +1,27 @@
+.experience {
+    background-color: rgb(94, 8, 8);
+    background-image: url("https://t3.ftcdn.net/jpg/02/63/37/20/360_F_263372099_nqEfHwn6jYlRkExyLP8WlQMMqmfxaRjD.jpg");
+  }
+  
+  @media all and (max-width: 1279px) {
+    .experience {
+      background-position: center bottom;
+    }
+  }
+  
+  
+  @media all and (max-width:767px){
+      .experience{
+          /* background-image: url("https://images.unsplash.com/photo-1547125696-2b8e7f18c1da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80"); */
+          min-height: 1150px;
+          background-position: right center ;
+      }
+
+      .experience-heading{
+          margin-top: 400px;
+      }
+
+      .experience-description{
+          margin-top: 100px;
+      }
+  }

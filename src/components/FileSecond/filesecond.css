@@ -1,6 +1,7 @@
 .file-second {
-  background-color: var(--bg-cream);
-  background-image: url("https://storyset.com/illustration/globalization/bro#F8E705FF&hide=&hide=simple");
+  /* background-color: var(--bg-cream); */
+  background-color: rgb(10, 10, 79);
+  background-image: url("https://p0.pikist.com/photos/875/866/airplane-night-plane-sky-travel-city-blue-tones-background.jpg");
 }
 
 @media all and (max-width: 1279px) {
@@ -12,7 +13,7 @@
 
 @media all and (max-width:767px){
     .file-second{
-        background-image: url("https://images.unsplash.com/photo-1547125696-2b8e7f18c1da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80");
+        /* background-image: url("https://images.unsplash.com/photo-1547125696-2b8e7f18c1da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80"); */
         min-height: 1150px;
         background-position: right center ;
     }
