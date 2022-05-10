@@ -1,0 +1,19 @@
+.file-second {
+  background-color: var(--bg-cream);
+  background-image: url("https://thumbs.dreamstime.com/b/natural-wood-background-texture-white-color-patterns-high-resolution-wallpapers-165181913.jpg");
+}
+
+@media all and (max-width: 1279px) {
+  .file-second {
+    background-position: center bottom;
+  }
+}
+
+
+@media all and (max-width:767px){
+    .file-second{
+        background-image: url("https://images.unsplash.com/photo-1547125696-2b8e7f18c1da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80");
+        min-height: 1150px;
+        background-position: right center ;
+    }
+}
