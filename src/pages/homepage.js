@@ -3,6 +3,7 @@ import Header from "../components/common/Header";
 import Experience from "../components/Experience";
 import FileSecond from "../components/FileSecond";
 import HeroSection from "../components/HeroSection";
+import MobileScroll from "../components/MobileScroll";
 import WindowPeak from "../components/WindowPeak";
 
 const HomePage = () => {
@@ -12,9 +13,7 @@ const HomePage = () => {
       <HeroSection></HeroSection>
       <WindowPeak></WindowPeak>
       <FileSecond></FileSecond>
-      {/* <div className="non-mobile"> */}
-        {/* <WindowPeak></WindowPeak> */}
-      {/* </div> */}
+     <MobileScroll></MobileScroll>
       <Experience></Experience>
     </>
   );
