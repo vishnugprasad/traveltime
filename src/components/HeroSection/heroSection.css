@@ -21,7 +21,7 @@ position: relative;
 }
 
 .hero-label{
-    background-color: var(--bg-grey);
+    background-color: darkgreen;
     width: 100%;
     position: absolute;
     height: 72px;

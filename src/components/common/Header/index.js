@@ -18,11 +18,11 @@ const Header = () => {
         
       </div>
       <div className="flex max-width header">
-        <img
+        {/* <img
           src="https://www.vhv.rs/dpng/d/320-3207853_transparent-travel-agency-logo-png-png-download.png"
           alt="vishnu"
           className="header-logo"
-        />
+        /> */}
         <div className="only-mobile mobile-menu-button-wrapper">
           <button
             class={`hamburger hamburger--spin ${
