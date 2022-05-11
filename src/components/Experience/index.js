@@ -11,18 +11,17 @@ function Experience() {
         <div className="photo-section-child">
             <div className="photo-section-top">
                 <div className="photo-section-heading experience-heading">
-                    gibre shhhis kile ntes
+                    we got your back
                 </div>
                 <div className="photo-section-subheading">
-                abcedf aeiou qwwrty rmn sdadas ghky
+                with the amazing and honest user reviews
                 </div>
             </div>
             <div className="photo-section-bottom">
                 <div className="photo-section-description experience-description">
 
-                xcczx sadsad dsad sadas dsadasdasdasda dsadasdasdas dasdasdassdasd dasdasdarewrwe rewrwerer sdfsf
-                 asfsafsfasfas sfafasfsafasf ferafsafas wrwrqwrwrqw efsdffsfds fsfasfasa erwrerwerwe asfasfasf fsfasfasa dasdasda
-                 sadsadasd dsadasdasdasdasd dasdasdasdasds.
+                we assure you  a tension free trip where you itself is planning everything and you get to familiar
+                with the corners of the street even before you visiting there. 
 
                 </div>
                 <div>

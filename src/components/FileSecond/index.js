@@ -8,18 +8,17 @@ const FileSecond = () => {
         <div className="photo-section-child">
             <div className="photo-section-top">
                 <div className="photo-section-heading">
-                gibre shhhis kile ntes
+                create personalised  itinerary
                 </div>
                 <div className="photo-section-subheading">
-                abcedf aeiou qwwrty rmn sdadas ghky
+                at your finger tip
                 </div>
             </div>
             <div className="photo-section-bottom">
                 <div className="photo-section-description">
 
-                xcczx sadsad dsad sadas dsadasdasdasda dsadasdasdas dasdasdassdasd dasdasdarewrwe rewrwerer sdfsf
-                 asfsafsfasfas sfafasfsafasf ferafsafas wrwrqwrwrqw efsdffsfds fsfasfasa erwrerwerwe asfasfasf fsfasfasa dasdasda
-                 sadsadasd dsadasdasdasdasd dasdasdasdasds.
+                add the places you want to visit and find the smartest way to reach all the destination. make it a 
+                memorable one and dont miss any spots anymore
 
                 </div>
                 <div>

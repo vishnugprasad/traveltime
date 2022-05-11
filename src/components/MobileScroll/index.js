@@ -4,23 +4,19 @@ import ScreenText from './ScreenText'
 
 const scrollData = [
     {
-        heading: "book you hotels",
-        description: " we are offering you to book your flights at a simple and faster  we are offering you to book your flights at a simple and faster ",
+        heading: "find the best flights",
+        description: "Now find the best flights available for you and link it with your itinerary and cancel them at your wish and rewrite your itinerary all at a single platform ",
         mobile_img: require("../../asset/flight.png")
     },
     {
-        heading: "book you hotels",
-        description: " we are offering you to book your flights at a simple and faster  we are offering you to book your flights at a simple and faster ",
+        heading: "you deserve the best hotels",
+        description: " Book hotels with our specialized review systems. Now dont trust on fake ads and reviews",
         mobile_img: require("../../asset/map.png")
     },
+    
     {
-        heading: "book you hotels",
-        description: " we are offering you to book your flights at a simple and faster  we are offering you to book your flights at a simple and faster ",
-        mobile_img: require("../../asset/travel.png")
-    },
-    {
-        heading: "book you hotels",
-        description: " we are offering you to book your flights at a simple and faster  we are offering you to book your flights at a simple and faster ",
+        heading: "Taxi on demand",
+        description: " with our specialized itinerary creating feature you can add and remove taxi at a single touch. no more waiting... ",
         mobile_img: require("../../asset/car.png")
     },
 ]
@@ -40,7 +36,8 @@ const MobileScroll = () => {
             <div className='mobile-mockup'>
                 <div className='mobile-mockup-screen flex absolute-center'>
                     <img src ={scrollData[currentImg].mobile_img} alt="vishnu"
-                    className='mobile-screen-img'/>
+                    className='mobile-screen-img'
+                    key = {scrollData[currentImg].mobile_img} />
 
                 </div>
             </div>
