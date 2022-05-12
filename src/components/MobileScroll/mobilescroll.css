@@ -19,7 +19,7 @@
   width: 50%;
 }
 
-/* to be removed the case */
+
 .mobile-mockup {
   position: sticky;
   top: 150px;
@@ -29,7 +29,7 @@
   border-radius: 46px;
   padding: 16px 14px;
   max-height: 100vh;
-  box-shadow: #fffbfb;
+  box-shadow: var(--mobile-box-shadow);
 }
 
 .mobile-mockup-screen {

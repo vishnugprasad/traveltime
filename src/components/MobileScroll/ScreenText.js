@@ -20,17 +20,18 @@ const ScreenText = ({ screen, setCurrentImg, i }) => {
 
     useEffect(()=>{
         const observer = new IntersectionObserver(toggleAnimation,options);
+        const element  = ref.current
        
-            if(ref.current){
-                observer.observe(ref.current)
+            if(element){
+                observer.observe(element)
             }
         
-        return()=>{
-            if(ref.current){
-                observer.unobserve(ref.current);
+        return ()=> {
+            if(element){
+                observer.unobserve(element);
             }
         }
-    })
+    });
   return (
     <div className={`screen-text ${showAnimation ? "text-visible": " "}`} 
     ref = {ref}
